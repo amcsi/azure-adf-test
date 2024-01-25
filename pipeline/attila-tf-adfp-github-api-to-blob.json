@@ -39,7 +39,7 @@
 						"mappings": [
 							{
 								"source": {
-									"path": "$['id']"
+									"path": "['id']"
 								},
 								"sink": {
 									"name": "ID",
@@ -48,16 +48,15 @@
 							},
 							{
 								"source": {
-									"path": "$['full_name']"
+									"path": "['full_name']"
 								},
 								"sink": {
-									"name": "Full Name",
-									"type": "String"
+									"name": "Full Name"
 								}
 							},
 							{
 								"source": {
-									"path": "$['stargazers_count']"
+									"path": "['stargazers_count']"
 								},
 								"sink": {
 									"name": "Stars",
@@ -65,7 +64,8 @@
 								}
 							}
 						],
-						"collectionReference": "items"
+						"collectionReference": "$['items']",
+						"mapComplexValuesToString": false
 					}
 				},
 				"inputs": [
