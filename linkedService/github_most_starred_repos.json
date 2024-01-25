@@ -1,0 +1,12 @@
+{
+	"name": "github_most_starred_repos",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
