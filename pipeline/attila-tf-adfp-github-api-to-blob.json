@@ -1,0 +1,8 @@
+{
+	"name": "attila-tf-adfp-github-api-to-blob",
+	"properties": {
+		"annotations": [],
+		"lastPublishTime": "2024-01-24T12:55:43Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
